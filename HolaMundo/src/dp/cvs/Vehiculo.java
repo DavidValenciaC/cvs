@@ -8,7 +8,7 @@ package dp.cvs;
 public class Vehiculo {
 	private String matricula;
 	private String marca;
-	private int kms;
+	private Integer kms;
 	
 	public Vehiculo() {
 		marca="";
@@ -50,7 +50,7 @@ public class Vehiculo {
 	
 	@Override
 	public String toString() {
-		return marca+"-"+matricula;
+		return marca+"-"+matricula+"-"+kms.toString();
 	}
 	
 
