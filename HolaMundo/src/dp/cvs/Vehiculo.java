@@ -7,8 +7,9 @@ package dp.cvs;
  */
 public class Vehiculo {
 	private String matricula;
-	private String marca;
 	private Integer kms;
+	private String marca;
+	
 	
 	public Vehiculo() {
 		marca="";
